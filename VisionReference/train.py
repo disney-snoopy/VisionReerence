@@ -33,7 +33,7 @@ from VisionReference.group_by_aspect_ratio import GroupedBatchSampler, create_as
 from VisionReference.engine import train_one_epoch, evaluate
 
 import VisionReference.presets
-import VisionReference.utils
+import VisionReference.utils as utils
 
 
 def get_dataset(name, image_set, transform, data_path):
